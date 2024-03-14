@@ -1,0 +1,228 @@
+h1 {
+    font-size:42px;
+}
+h2 {
+    font-size: 35px;
+	
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+}
+	a {
+		color: #007bff;
+		text-decoration: none;
+		background-color: transparent;
+	}
+.faq_area {
+	padding-top: 50px;
+	padding-bottom: 80px;
+	background-color: #eeeeee !important;
+    border-color: #eeeeee !important;
+}
+	.section_sub_title h6 {
+    letter-spacing: 5px;
+    color: #0c5adb;
+    font-size: 16px;
+}
+.section_title.text_center {
+	text-align:center;
+}
+.section_main_title h1,
+.section_main_title h2 {
+    font-weight: 800;
+	margin:0;
+}
+.text_left .section_main_title h1 {
+    margin: 0;
+    letter-spacing: -1px;
+}
+.section_main_title h1 span{
+	color:#0c5adb;
+}
+.section_content_text p {
+    font-size: 18px;
+}
+.text_center .section_content_text p {
+    width: 75%;
+    margin: auto;
+    font-size: 19px;
+}
+.section_content_text.bold p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.service_style_one {
+    background: #fff;
+	border-radius:10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+    text-align: center;
+}
+.service_style_one_icon i {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    background: #e8ecfc;
+    border-radius: 100%;
+    display: inline-block;
+    border-radius: 33% 66% 70% 30%/49% 62% 38% 51%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    text-align: center;
+	font-size:35px;
+}
+.service_style_one_icon i svg {
+    width: 40px;
+    height: 78px;
+    fill: #0C5ADB;
+}
+.service_style_one_title  {
+	margin-bottom: 30px;
+}
+.service_style_one_title h4 {
+    font-weight: 700;
+    color: #0C5ADB;
+	position:relative;
+	font-size: 24px;
+
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 11px;
+    line-height: 1.2;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.service_style_one_title h4:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 37px;
+    height: 1px;
+    width: 100px;
+    background: #d1d1d1;
+    margin: auto;
+    right: 0;
+}
+.service_style_one_button a {
+    color: #616161;
+    border: 1px solid #e8ecfc;
+    padding: 5px 23px;
+	border-radius: 30px;
+	display: inline-block;
+    font-size: 16px;
+}
+.service_style_one_button a i {
+    margin-left: 7px;
+}
+.service_style_one:hover .service_style_one_button a {
+    background-color: #0C5ADB;
+    color: #fff;
+    border-color: #0C5ADB;
+}
+.service_style_one:hover .service_style_one_icon i {
+    background-color: #0C5ADB;
+    color: #fff;
+}
+.service_style_one:hover .service_style_one_icon i svg {
+	fill: #fff;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.em_bar {
+	background: #9B50DB none repeat scroll 0 0;
+	height: 2px;
+	margin: 0 auto 5px;
+	width: 62px;
+	
+}
+.text_left .em_bar {
+    margin: 0;
+}
+.em_bar_bg {
+	height: 5px;
+    width: 90px;
+    background: #cbbded;
+    background: #e0e0e0;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.em_bar_bg:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #0C5ADB;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+@-webkit-keyframes MOVE-BG {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(88px);
+            transform: translateX(88px);
+  }
+}
+
+@keyframes MOVE-BG {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(88px);
+            transform: translateX(88px);
+  }
+}
